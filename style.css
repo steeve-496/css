@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Navbar */
+
+.navbar {
+    background-color: rgb(0, 85, 142);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar h1 {
+    display: flex;
+    color: white;
+}
+
+.navbar h1:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.navbar .nav_items {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .nav_items a:hover {
+    background-color: black
+}
+
+.navbar .nav_items a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: medium;
+    text-decoration: none;
+    padding: 4vh;
+    color: white;
+}
+
+.navbar .nav_items a {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Hero */
+
+.hero {
+    height: 90vh;
+    background-color: black;
+}
+
+.hero h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 90px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 5px rgb(22, 85, 172);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.products {
+    padding: 20px;
+    background-color: green;
+    height: 40vh;
+    text-align: center;
+}
+
+.products h3 {
+    padding-top: 20vh;
+}
+
+.about {
+    padding: 20px;
+    background-color: blue;
+    height: 50vh;
+    text-align: center;
+}
+
+.about h3 {
+    padding-top: 25vh;
+}
